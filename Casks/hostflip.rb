@@ -12,6 +12,8 @@ cask "hostflip" do
 
   app "Hostflip.app"
 
+  uninstall quit: "com.heronapp.hostflip"
+
   zap trash: [
     "~/Library/Application Support/hostflip",
     "~/Library/Caches/com.heronapp.hostflip",
