@@ -7,7 +7,7 @@ cask "hostflip" do
   desc "Native menu bar hosts switcher with zero-interruption switching"
   homepage "https://github.com/heronapp/hostflip"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Hostflip.app"
