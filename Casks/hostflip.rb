@@ -1,6 +1,6 @@
 cask "hostflip" do
-  version "0.1.0"
-  sha256 "33001457c4a350760a5cc855bab741324aa3af1429860a9181bf23dfc6f78c4b"
+  version "0.1.1"
+  sha256 "047a4e6562476dc047c2823c133ee49ce8a8baf46152d96d3f33dfa66f594509"
 
   url "https://github.com/heronapp/hostflip/releases/download/v#{version}/Hostflip-#{version}.dmg"
   name "hostflip"
