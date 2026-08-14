@@ -1,6 +1,6 @@
 cask "hostflip" do
-  version "0.1.6"
-  sha256 "48d39af40e7dd4f0523fcad28b8f300228903068510018d230cebde35c10beb6"
+  version "0.1.7"
+  sha256 "1dae77aa477cf3f4fcd397452904b1e740a1e835ef9682df6ad9ff68f3bd1708"
 
   auto_updates true
 
@@ -13,6 +13,7 @@ cask "hostflip" do
   depends_on arch: :arm64
 
   app "Hostflip.app"
+  binary "#{appdir}/Hostflip.app/Contents/Helpers/hostflip"
 
   uninstall quit: "com.heronapp.hostflip"
 
