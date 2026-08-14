@@ -1,6 +1,6 @@
 cask "hostflip" do
-  version "0.1.7"
-  sha256 "1dae77aa477cf3f4fcd397452904b1e740a1e835ef9682df6ad9ff68f3bd1708"
+  version "0.1.8"
+  sha256 "c3cee959f3c0d6801ff13c5d3e9f0b7c235240dbef19ea26f49765e213e0feb6"
 
   auto_updates true
 
