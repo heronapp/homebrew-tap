@@ -13,7 +13,6 @@ cask "hostflip" do
   depends_on arch: :arm64
 
   app "Hostflip.app"
-  binary "#{appdir}/Hostflip.app/Contents/Helpers/hostflip"
 
   uninstall quit: "com.heronapp.hostflip"
 
